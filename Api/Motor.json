@@ -1,0 +1,281 @@
+{
+  "motorcycles": [
+    {
+      "id": 1,
+      "brand": "Honda",
+      "model": "Vario 160 ABS",
+      "category": "Scooter",
+      "year": 2025,
+      "price": 30150000,
+      "stock": 15,
+      "rating": 4.8,
+      "description": "Skuter premium dengan mesin 160cc eSP+.",
+      "images": [
+        "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:q-70,f-auto/uploads/product-draft/colors/warna-vario160-grande-matte-blue-abs-515x504-tr-10012024-040236.png",
+        "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:q-70,f-auto/uploads/product-draft/colors/warna-vario160-grande-matte-white-abs-515x504-tr-10012024-040725.png",
+        "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:q-70,f-auto,pr-true/uploads/product-draft/colors/warna-vario160-grande-matte-black-abs-515x504-tr-10012024-040747.png"
+      ],
+      "colors": ["Black", "Red", "White"],
+      "specifications": {
+        "engine": "156.9cc",
+        "power": "15.4 PS",
+        "fuelTank": "5.5 L",
+        "transmission": "CVT",
+        "weight": "117 kg"
+      }
+    },
+    {
+      "id": 2,
+      "brand": "Honda",
+      "model": "PCX 160 ABS",
+      "category": "Scooter",
+      "year": 2025,
+      "price": 38200000,
+      "stock": 12,
+      "rating": 4.9,
+      "description": "Skuter premium dengan fitur modern.",
+      "images": [
+        "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:q-70,f-auto,pr-true/uploads/product-draft/colors/varian-warna-515x504-03-2-11022026-055535.png",
+        "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:q-70,f-auto,pr-true/uploads/product-draft/colors/varian-warna-515x504-01-2-11022026-055530.png",
+        "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:q-70,f-auto,pr-true/uploads/product-draft/colors/varian-warna-515x504-10-3-11022026-060043.png",
+        "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:q-70,f-auto,pr-true/uploads/product-draft/colors/varian-warna-515x504-09-3-11022026-060041.png"
+      ],
+      "colors": ["Black", "Silver"],
+      "specifications": {
+        "engine": "156.9cc",
+        "power": "16 PS",
+        "fuelTank": "8.1 L",
+        "transmission": "CVT",
+        "weight": "132 kg"
+      }
+    },
+    {
+      "id": 4,
+      "brand": "Honda",
+      "model": "Stylo 160",
+      "category": "Harian",
+      "year": 2025,
+      "price": 29261000,
+      "stock": 10,
+      "rating": 4.6,
+      "description": "Motor matik harian premium dengan perpaduan desain retro modern dan mesin bertenaga.",
+      "images": [
+        "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:q-900,f-auto,pr-true/uploads/product/feature/700x700pxl-update-02042026-044852.png"
+      ],
+      "colors": ["Glam Beige", "Glam Black", "Glam White", "Royal Matte Blue"],
+      "specifications": {
+        "engine": "156.9 cc eSP+",
+        "power": "15.4 PS / 8.500 rpm",
+        "fuelTank": "5 L",
+        "transmission": "Otomatis, V-Matic",
+        "weight": "115 kg"
+      }
+    },
+
+    {
+      "id": 5,
+      "brand": "Honda",
+      "model": "Supra x125 Fi",
+      "category": "Harian",
+      "year": 2025,
+      "price": 10000000,
+      "stock": 10,
+      "rating": 4.6,
+      "description": "Motor harian dengan desain klasik.",
+      "images": [
+        "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/thumbnail-new-supra-x-5-04032022-102907.png",
+        "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:q-70,f-auto/uploads/product-draft/colors/warna-vario160-grande-matte-white-abs-515x504-tr-10012024-040725.png",
+        "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:q-70,f-auto/uploads/product-draft/colors/warna-vario160-grande-matte-black-abs-515x504-tr-10012024-040725.png"
+      ],
+      "colors": ["White", "Black"],
+      "specifications": {
+        "engine": "125cc",
+        "power": "15.6 PS",
+        "fuelTank": "12 L",
+        "transmission": "4 Speed",
+        "weight": "139 kg"
+      }
+    },
+
+    {
+      "id": 6,
+      "brand": "Yamaha",
+      "model": "NMAX Turbo",
+      "category": "Scooter",
+      "year": 2025,
+      "price": 38250000,
+      "stock": 11,
+      "rating": 4.9,
+      "description": "Skuter premium Yamaha terbaru.",
+      "images": [
+        "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011411065945811R98632.png",
+        "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012114594317543J23731.png",
+        "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012114594317543J23731.png"
+      ],
+      "colors": ["Black", "Grey"],
+      "specifications": {
+        "engine": "155cc",
+        "power": "15.4 PS",
+        "fuelTank": "7.1 L",
+        "transmission": "CVT",
+        "weight": "135 kg"
+      }
+    },
+    {
+      "id": 7,
+      "brand": "Yamaha",
+      "model": "Aerox Alpha",
+      "category": "Scooter",
+      "year": 2025,
+      "price": 29900000,
+      "stock": 14,
+      "rating": 4.8,
+      "description": "Skuter sporty dengan desain agresif.",
+      "images": [
+        "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020515031335833N50491.png",
+        "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020515031335833N50491.png",
+        "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020515050852238N68798.png"
+      ],
+      "colors": ["Yellow", "Black"],
+      "specifications": {
+        "engine": "155cc",
+        "power": "15.4 PS",
+        "fuelTank": "5.5 L",
+        "transmission": "CVT",
+        "weight": "126 kg"
+      }
+    },
+    {
+      "id": 8,
+      "brand": "Yamaha",
+      "model": "R15M",
+      "category": "Sport",
+      "year": 2025,
+      "price": 45500000,
+      "stock": 6,
+      "rating": 4.9,
+      "description": "Motor sport fairing dengan quick shifter.",
+      "images": [
+        "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601221233083712A95570.png",
+        "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601221233083712A95570.png",
+        "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020515050852238N68798.png"
+      ],
+      "colors": ["Blue", "Black"],
+      "specifications": {
+        "engine": "155cc VVA",
+        "power": "19 PS",
+        "fuelTank": "11 L",
+        "transmission": "6 Speed",
+        "weight": "141 kg"
+      }
+    },
+    {
+      "id": 9,
+      "brand": "Yamaha",
+      "model": "MT-15",
+      "category": "Naked Sport",
+      "year": 2025,
+      "price": 39500000,
+      "stock": 7,
+      "rating": 4.7,
+      "description": "Motor naked sport dengan mesin VVA.",
+      "images": [
+        "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202501201512088268P91906.png"
+      ],
+      "colors": ["Black", "Grey"],
+      "specifications": {
+        "engine": "155cc VVA",
+        "power": "19 PS",
+        "fuelTank": "10.4 L",
+        "transmission": "6 Speed",
+        "weight": "133 kg"
+      }
+    },
+    {
+      "id": 10,
+      "brand": "Yamaha",
+      "model": "Fazzio Hybrid",
+      "category": "Scooter",
+      "year": 2025,
+      "price": 23500000,
+      "stock": 18,
+      "rating": 4.6,
+      "description": "Motor retro modern dengan teknologi hybrid.",
+      "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202603021616392454D52822.png",
+      "colors": ["White", "Mint"],
+      "specifications": {
+        "engine": "125cc",
+        "power": "8.3 PS",
+        "fuelTank": "5.1 L",
+        "transmission": "CVT",
+        "weight": "95 kg"
+      }
+    },
+    {
+      "id": 11,
+      "brand": "Yamaha",
+      "model": "RX-King",
+      "category": "Sport",
+      "year": 2009,
+      "price": 35000000,
+      "stock": 5,
+      "rating": 4.9,
+      "description": "Motor 2-tak legendaris dengan akselerasi responsif dan desain klasik yang masih diminati hingga saat ini.",
+      "images": [
+        "https://img.freepik.com/vektor-premium/rx-king-vector-motor-klasik_624433-83.jpg"
+      ],
+      "colors": ["Black", "Blue", "Red"],
+      "specifications": {
+        "engine": "132cc 2-Stroke",
+        "power": "18.5 PS",
+        "fuelTank": "9.5 L",
+        "transmission": "5 Speed",
+        "weight": "100 kg"
+      }
+    },
+    {
+      "id": 12,
+      "brand": "Suzuki",
+      "model": "Satria F150",
+      "category": "Underbone",
+      "year": 2025,
+      "price": 29160000,
+      "stock": 9,
+      "rating": 4.8,
+      "description": "Motor ayam jago 150cc dengan bobot ringan, akselerasi responsif, dan mesin DOHC berpendingin cairan.",
+      "images": [
+        "https://suzukicdn.com//assets/static/img/variant/PEARL_BRIGHT_IVORY_-_MET__MAT_FIBROIN_GRAY_1.webp"
+      ],
+      "colors": ["Black Predator", "Blue GP", "White Blue"],
+      "specifications": {
+        "engine": "147.3cc DOHC",
+        "power": "18.2 HP",
+        "fuelTank": "4.0 L",
+        "transmission": "6 Speed",
+        "weight": "109 kg"
+      }
+    },
+    {
+      "id": 13,
+      "brand": "Suzuki",
+      "model": "GSX-R150",
+      "category": "Sport",
+      "year": 2025,
+      "price": 38400000,
+      "stock": 8,
+      "rating": 4.8,
+      "description": "Motor sport fairing 150cc dengan desain aerodinamis, bobot ringan, dan performa tinggi untuk penggunaan harian maupun touring.",
+      "images": [
+        "https://suzukicdn.com/assets/static/img/variant/GSX_R_Titan_Black_(_Dgl__Right_)_Retouch_1.webp"
+      ],
+      "colors": ["Blue", "Black", "Red"],
+      "specifications": {
+        "engine": "147.3cc DOHC",
+        "power": "18.9 HP",
+        "fuelTank": "11 L",
+        "transmission": "6 Speed",
+        "weight": "131 kg"
+      }
+    }
+  ]
+}

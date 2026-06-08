@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Motor - Raffz Motor</title>
+    <link href="/src/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-slate-50 min-h-screen font-sans">
+    <nav
+      class="fixed top-0 left-0 right-0 z-30 bg-white/80 backdrop-blur-md border-b border-slate-200"
+    >
+      <div
+        class="max-w-screen-xl mx-auto px-4 py-3 flex items-center justify-between"
+      >
+        <a href="./home.html" class="flex items-center gap-3">
+          <div class="bg-blue-600 p-1.5 rounded-lg shadow-lg">
+            <svg
+              class="w-6 h-6 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              />
+            </svg>
+          </div>
+          <span
+            class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-sky-500 uppercase tracking-tighter"
+            >Raffz Motor</span
+          >
+        </a>
+
+        <div class="flex items-center gap-4">
+          <a
+            href="./keranjang.html"
+            class="p-2 text-slate-600 hover:bg-slate-100 rounded-full transition relative"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+              />
+            </svg>
+            <span
+              id="cart-link"
+              class="absolute top-0 right-0 bg-blue-600 text-white text-[10px] font-black px-1.5 py-0.5 rounded-full"
+            ></span>
+          </a>
+          <a
+            href="./produk.html"
+            class="text-sm font-black uppercase tracking-tighter text-blue-600 hover:text-slate-900 transition"
+            >Katalog</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <main class="pt-24 pb-20">
+      <div class="max-w-screen-xl mx-auto px-4">
+        <div
+          id="detail-container"
+          class="min-h-[400px] flex items-center justify-center"
+        >
+          <div class="flex flex-col items-center gap-4">
+            <div
+              class="w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"
+            ></div>
+            <p
+              class="text-slate-400 font-bold uppercase tracking-widest text-xs"
+            >
+              Mempersiapkan Data...
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-white border-t border-slate-100 py-12">
+      <div class="max-w-screen-xl mx-auto px-4 text-center">
+        <p
+          class="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em] mb-4"
+        >
+          Authorized Dealer Edition 2025
+        </p>
+        <div class="flex justify-center gap-8">
+          <a
+            href="#"
+            class="text-slate-400 hover:text-blue-600 transition text-xs font-bold"
+            >Privacy Policy</a
+          >
+          <a
+            href="#"
+            class="text-slate-400 hover:text-blue-600 transition text-xs font-bold"
+            >Terms of Service</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="/script/detail.js"></script>
+  </body>
+</html>

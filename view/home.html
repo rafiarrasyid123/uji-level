@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produk Sebelum Login</title>
+    <link href="/src/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-slate-50 min-h-screen font-sans">
+    <nav
+      class="fixed top-0 left-0 right-0 z-30 bg-white/80 backdrop-blur-md border-b border-slate-200"
+    >
+      <div
+        class="max-w-screen-xl mx-auto px-4 py-3 flex items-center justify-between gap-4"
+      >
+        <a href="./home.html" class="flex items-center gap-3">
+          <div class="bg-blue-600 p-1.5 rounded-lg shadow-lg shadow-blue-200">
+            <svg
+              class="w-6 h-6 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              />
+            </svg>
+          </div>
+          <span
+            class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-sky-500"
+            >Raffz Motor</span
+          >
+        </a>
+
+        <div
+          class="hidden lg:flex items-center gap-8 text-sm font-bold text-slate-500 tracking-tight"
+        >
+          <a href="#" class="hover:text-blue-600 transition">Katalog</a>
+          <a href="#" class="hover:text-blue-600 transition">Promo</a>
+          <a href="#" class="hover:text-blue-600 transition">Lokasi Kami</a>
+        </div>
+
+        <div class="flex items-center gap-4" id="auth-buttons">
+          <a
+            href="./login.html"
+            class="hidden sm:block px-4 py-2 text-sm font-bold text-slate-600 hover:text-blue-600 transition"
+            >Masuk</a
+          >
+          <a
+            href="./register.html"
+            class="px-6 py-3 text-sm font-black uppercase tracking-tighter text-white bg-blue-600 rounded-full shadow-xl shadow-blue-200 hover:bg-slate-900 transition-all active:scale-95"
+            >Daftar</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <main class="pt-24 pb-20">
+      <section class="max-w-screen-xl mx-auto px-4">
+        <div
+          class="relative rounded-[40px] bg-slate-950 p-8 md:p-20 overflow-hidden"
+        >
+          <div
+            class="relative z-10 flex flex-col md:flex-row items-center gap-12"
+          >
+            <div class="flex-1 text-center md:text-left">
+              <div
+                class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-[10px] font-black uppercase tracking-widest mb-6"
+              >
+                <span
+                  class="w-1.5 h-1.5 rounded-full bg-blue-500 animate-ping"
+                ></span>
+                Showroom Edition 2025
+              </div>
+              <h1
+                class="text-5xl md:text-7xl font-black text-white leading-[0.9] tracking-tighter mb-6"
+              >
+                RIDE THE <br /><span class="text-blue-600">FUTURE.</span>
+              </h1>
+              <p class="text-slate-400 text-lg max-w-md mb-10 leading-relaxed">
+                Koleksi motor eksklusif dengan performa mesin tinggi. Dapatkan
+                penawaran terbatas hari ini.
+              </p>
+              <a
+                href="./login.html"
+                id="hero-cta"
+                class="inline-block px-10 py-5 bg-white text-slate-950 font-black rounded-full hover:bg-blue-600 hover:text-white transition-all shadow-2xl"
+              >
+                Jelajahi Katalog
+              </a>
+            </div>
+            <div class="flex-1 hidden md:block">
+              <img
+                src="https://png.pngtree.com/png-vector/20230511/ourmid/pngtree-illustration-of-a-honda-grand-astrea-vector-png-image_7094182.png"
+                class="w-full rotate-[-10deg] drop-shadow-[0_35px_35px_rgba(59,130,246,0.3)]"
+                alt="Featured"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 md:hidden relative">
+          <div
+            class="absolute inset-y-0 left-3 flex items-center pointer-events-none"
+          >
+            <svg
+              class="w-5 h-5 text-slate-400"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+          </div>
+          <input
+            type="text"
+            id="search-mobile"
+            data-product-search
+            class="w-full pl-10 pr-4 py-4 bg-white border border-slate-200 rounded-2xl focus:ring-2 focus:ring-blue-500 shadow-sm text-sm"
+            placeholder="Cari motor favorit..."
+          />
+        </div>
+      </section>
+
+      <section class="max-w-screen-xl mx-auto px-4 mt-16">
+        <div class="flex items-end justify-between mb-10">
+          <div>
+            <h2 class="text-2xl md:text-4xl font-extrabold text-slate-800">
+              Koleksi Terbaru
+            </h2>
+            <p class="text-slate-500 mt-2">
+              Pilih motor yang sesuai dengan gaya hidup Anda.
+            </p>
+          </div>
+          <div
+            class="hidden sm:block h-1 flex-1 bg-slate-100 mx-8 rounded-full opacity-50"
+          ></div>
+          <a
+            href="./login.html"
+            class="text-blue-600 font-bold hover:underline text-sm"
+            >Lihat Semua</a
+          >
+        </div>
+
+        <div
+          id="container"
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8"
+        >
+          <!-- Produk di-render di sini -->
+        </div>
+      </section>
+    </main>
+
+    <script src="/script/home.js"></script>
+  </body>
+</html>
