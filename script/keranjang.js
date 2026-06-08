@@ -117,7 +117,12 @@ clearCartBtn?.addEventListener("click", () => {
 });
 
 checkoutBtn?.addEventListener("click", () => {
-  alert("Terima kasih! Pesanan Anda sedang diproses.");
+  const paymentMethod = document.querySelector(
+    'input[name="payment-method"]:checked',
+  )?.value;
+  alert(
+    `Terima kasih! Pesanan Anda dengan metode ${paymentMethod} sedang diproses.`,
+  );
   localStorage.removeItem(CART_KEY);
   window.location.href = "./produk.html";
 });
