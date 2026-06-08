@@ -187,7 +187,7 @@ async function init() {
   logoutLink?.addEventListener("click", (e) => {
     e.preventDefault();
     sessionStorage.clear();
-    window.location.replace("./home.html");
+    window.location.replace("./index.html");
   });
 
   searchInputs.forEach((input) =>
