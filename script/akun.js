@@ -41,7 +41,8 @@ function setupDropdown() {
 
 function logout() {
   sessionStorage.clear();
-  window.location.href = "./login.html";
+  window.location.href = "../index.html";
+  window.location.replace("../index.html");
 }
 
 document.addEventListener("DOMContentLoaded", () => {

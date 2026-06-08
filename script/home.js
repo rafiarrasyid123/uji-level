@@ -1,4 +1,4 @@
-const localApi = "../Api/Motor.json";
+const localApi = "./Api/Motor.json";
 const remoteApi = "https://dummyjson.com/products/category/motorcycle";
 const USD_TO_IDR = 16000;
 const CART_KEY = "motorcycle_cart";
@@ -19,7 +19,7 @@ function isLoggedIn() {
 function addToCart(productId) {
   if (!isLoggedIn()) {
     alert("Harap login dulu.");
-    window.location.href = "./login.html";
+    window.location.href = "./view/login.html";
     return;
   }
 
@@ -116,13 +116,21 @@ async function init() {
   if (isLoggedIn()) {
     if (authButtons) {
       authButtons.innerHTML = `
-        <a href="./produk.html" class="px-6 py-3 text-sm font-black uppercase tracking-tighter text-white bg-blue-600 rounded-full shadow-xl shadow-blue-200 hover:bg-slate-900 transition-all active:scale-95">
-          Katalog Saya
-        </a>
-      `;
+          <a href="./view/produk.html" class="hidden sm:block px-4 py-2 text-sm font-bold text-slate-600 hover:text-blue-600 transition">
+            Katalog Saya
+          </a>
+          <button id="logout-btn" class="px-6 py-3 text-sm font-black uppercase tracking-tighter text-white bg-blue-600 rounded-full shadow-xl shadow-blue-200 hover:bg-slate-900 transition-all active:scale-95">
+            Keluar
+          </button>
+        `;
+
+      document.getElementById("logout-btn")?.addEventListener("click", () => {
+        sessionStorage.clear();
+        window.location.href = "./index.html";
+      });
     }
     if (heroCta) {
-      heroCta.href = "./produk.html";
+      heroCta.href = "./view/produk.html";
       heroCta.textContent = "Lanjut Berbelanja";
     }
   }
